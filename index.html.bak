@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="author" content="Anna Björklund">
+	<meta name="description" content="Personal website for Anna Björklund, linguistics PhD student at UC Berkeley with an interest in phonetics, 
+	archival research, California indigenous languages, and the intersection of these three areas. I currently work on the Wintuan languages of 
+	Northern California, especially the revitalization of Nomlaki.">
+    <title>Anna Björklund</title>
+	<link rel="stylesheet" href="personal_css.css">
+	<html lang="en-US">
+	<link rel="stylesheet" href="personal_site_style.css">
+	<link rel="icon" href="exclamation_emoji.ico" type="image/x-icon">
+  </head>
+  
+  <div class="nav"> 
+	<a href="index.html" target="_blank"> home </a>
+	<a href="bjorklund_cv_1_12.pdf" target="_blank"> cv </a>
+  </div>
+  
+  <body>
+	<div class="page_container">
+		<figure>
+		<img id="selfie" src="photo.jpg" alt="me"/>
+			<figcaption>
+				<span class="no_italics">
+					<p>You can pronounce my name as:</p>
+					<ul>
+						<li>English: /'ænə 'bjoɹklund/</li> 
+						<li>Swedish: /'ana 'bjøklund/</li>
+					</ul>
+				</span>
+			</figcaption>
+		</figure>
+	<div class "text">
+	<header><h1>Hello!</h1></header>
+	<h2>My name is Anna Björklund.</h2>
+    <p>I am a <a href="https://lx.berkeley.edu/people/graduate-students" target="_blank"> third-year PhD student </a> in 
+	<a href="https://lx.berkeley.edu/" target="_blank">the linguistics department </a> at the University 
+	of California, Berkeley, with an areal focus on the Wintuan languages of the northern Sacramento Valley of California. All three Wintuan languages 
+	(Wintu, Nomlaki, and Patwin) <a href="https://cla.berkeley.edu/languages/nomlaki.php" target="_blank">survive entirely 
+	via archival recordings,</a> and as such discovering more about them requires special methodological consideration. 
+	My current advisor is <a href="https://linguistics.berkeley.edu/~kjohnson/" target="_blank">Keith Johnson</a>.</p>
+	
+	<p>My primary research interests are in <b>leveraging archival recordings for the phonetic analysis of under-documented languages</b>, as well as 
+	<b>exploring how these methodologies can be generalized</b> for other languages in similar situations.</p>
+
+	<p><b>My recently completed MA thesis (en route to PhD)</b> focuses on an acoustic and statistical analysis of the Nomlaki vowel space, with in particular with respect to 
+	how the vowel system is represented orthographically in pedagogical materials. I have presented this work at the Acoustical Society of America
+	(ASA) and Linguistic Society of America (LSA).</p>
+
+	<p>Since 2020, I have worked with the <a href="https://paskenta-nsn.gov/" target="_blank">Paskenta Band of Nomlaki Indians</a> on language revitalization for Nomlaki, which includes co-teaching a weekly class and 
+	archival research.</p>
+	</div> </div>
+	<footer><p id="contact_text"><span class="circle-sketch-highlight">Contact: </span>&#128231; <a href="mailto:aebjorklund@berkeley.edu">aebjorklund@berkeley.edu</a></p></footer>
+  </body>
+  
+</html>

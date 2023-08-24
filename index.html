@@ -27,8 +27,6 @@ div.nametag {
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <!-- <img src="bjorklund_visingso_headshot.jpeg" style="width:100%"> -->
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa-solid fa-comments w3-xxlarge w3-text-lime"></i>
     <p>HOME</p>
@@ -49,28 +47,32 @@ div.nametag {
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+<!-- <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
     <a href="bjorklund_cv_8_23_23.pdf" class="w3-bar-item w3-button" style="width:25% !important">CV</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
-</div>
+</div> -->
 
 <!-- Page Content -->
 <header class="w3-container w3-center w3-black" id="home">
-  <img class="w3-image" src="london_birch_crop.jpg" alt="Me" max-width:100%, height:auto>
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center nametag">
+  <img class="w3-image w3-hide-small" src="london_birch_crop.jpg" alt="Me" max-width:100%, height:auto>
+  <img class="w3-image w3-hide-large w3-hide-medium" src="london_birch_crop.jpg" alt="Me" max-width:100%,
+  height:auto, style="padding-top:50px">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center
+    nametag w3-hide-small w3-hide-medium">
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">anna björklund</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">anna björklund</h5>
     <h5 class="w3-hide-medium w3-hide-small">ENG: /'ænə 'bjɔɹklənd/</h5>
     <h5 class="w3-hide-medium w3-hide-small">SV: /'ana 'bjørklund/</h5>
 </div>
 
+
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
-    <h2 class="w3-text-lime">about</h2>
+  <div class="w3-content w3-justify w3-text-white w3-padding-32" id="about">
+    <h2 class="w3-text-lime w3-hide-small">about</h2>
+    <h2 class="w3-text-lime w3-hide-large w3-hide-medium">anna björklund</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <p>I am a PhD student at UC Berkeley with an interest in the Wintuan languages, traditionally spoken in the northern Sacramento Valley of California.
@@ -92,13 +94,13 @@ div.nametag {
 
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+  <div class="w3-padding-32 w3-content w3-text-white" id="contact">
     <h2 class="w3-text-lime">contact</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-text-lime w3-xxlarge w3-margin-right"></i> Berkeley, CA, USA</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-lime w3-xxlarge w3-margin-right"> </i> Email: aebjorklund@berkeley.edu</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-lime w3-xxlarge w3-margin-right"> </i> aebjorklund@berkeley.edu</p>
       <p><i class="fa-brands fa-linkedin fa-fw w3-text-lime w3-xxlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/aebjorklund/" target="_blank">
         linkedin</a></p>
     </div><br>

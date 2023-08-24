@@ -1,62 +1,117 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-	<meta name="author" content="Anna Björklund">
-	<meta name="description" content="Personal website for Anna Björklund, linguistics PhD student at UC Berkeley with an interest in phonetics, 
-	archival research, California indigenous languages, and the intersection of these three areas. I currently work on the Wintuan languages of 
-	Northern California, especially the revitalization of Nomlaki.">
-    <title>Anna Björklund</title>
-	<link rel="stylesheet" href="personal_css.css">
-	<html lang="en-US">
-	<link rel="stylesheet" href="personal_site_style.css">
-	<link rel="icon" href="exclamation_emoji.ico" type="image/x-icon">
-  </head>
-  
-  <div class="nav"> 
-	<a href="index.html" target="_blank"> home </a>
-	<a href="bjorklund_cv.pdf" target="_blank"> cv </a>
+<head>
+<title>AEB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+<link rel="icon" href="heng-favicon.ico" type="image/x-icon">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+div.nametag {
+  background-color:rgba(150,150,150,0.7);
+}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <!-- <img src="bjorklund_visingso_headshot.jpeg" style="width:100%"> -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa-solid fa-comments w3-xxlarge w3-text-lime"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-ghost w3-xxlarge w3-text-lime"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="bjorklund_cv_8_23_23.pdf" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <!-- <a href="bjorklund_cv_8_23_23.pdf" class="fa fa-heart-pulse w3-xxlarge w3-text-lime"></a> -->
+    <i class="fa fa-heart-pulse w3-xxlarge w3-text-lime"></i>
+    <p>CV</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-feather-pointed w3-xxlarge w3-text-lime"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="bjorklund_cv_8_23_23.pdf" class="w3-bar-item w3-button" style="width:25% !important">CV</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
-  
-  <body>
-	<div class="wrapper">
-		<figure>
-		<img id="selfie" src="photo.jpg" alt="me"/>
-			<figcaption>					<span class="no_italics">
-					<p>You can pronounce my name as:</p>
-					<ul>
-						<li><span class="lang">English:</span> /'ænə 'bjoɹklund/</li> 
-						<li><span class="lang"> Swedish:</span> /'ana 'bjørklund/</li>
-					</ul>
-				</span>				
-			</figcaption>
-		</figure>
-		
-		<div class="text_col">
-		<header><h1>Hello!</h1></header>
-		<h2>My name is Anna Björklund.</h2>
-		<p>I am a <a href="https://lx.berkeley.edu/people/graduate-students" target="_blank"> fourth-year PhD student </a> in the
-		<a href="https://lx.berkeley.edu/" target="_blank">linguistics department </a> at the University 
-		of California, Berkeley, with an areal focus on the Wintuan languages, traditionally spoken in the northern Sacramento Valley of California. All three Wintuan languages 
-		(<a href="https://cla.berkeley.edu/languages/wintu.html" target="_blank">Wintu</a> [ISO: wnw], <a href="https://cla.berkeley.edu/languages/wintu.html" target="_blank">Nomlaki</a>
-		[ISO: nol], and <a href="https://cla.berkeley.edu/languages/patwin.html" target="_blank">Patwin</a> [ISO: pwi]) survive entirely 
-		via archival recordings. As such, discovering more about them requires special methodological consideration. 
-		My current advisor is <a href="https://linguistics.berkeley.edu/~kjohnson/" target="_blank">Keith Johnson</a>.</p>
-		
-		<p>My primary research interests are in <b>leveraging archival recordings for the phonetic analysis of under-documented languages</b>, as well as 
-		<b>exploring how these methodologies can be generalized</b> for other languages in similar situations.</p> 
+</div>
 
-		<p> My current research focuses on <b>investigating the prosodic inventory of Patwin</b>, utilizing both traditional analytical and newer computational methods in the style
-		of Kaland (2021). <b>My recently completed MA thesis (en route to PhD)</b> focuses on an acoustic and statistical analysis of the Nomlaki vowel space, in particular with 
-		respect to how the vowel system is represented orthographically in pedagogical materials. I have presented this work at the Acoustical Society of America
-		(ASA) and Linguistic Society of America (LSA).</p>
+<!-- Page Content -->
+<header class="w3-container w3-center w3-black" id="home">
+  <img class="w3-image" src="london_birch_crop.jpg" alt="Me" max-width:100%, height:auto>
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center nametag">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">anna björklund</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">anna björklund</h5>
+    <h5 class="w3-hide-medium w3-hide-small">ENG: /'ænə 'bjɔɹklənd/</h5>
+    <h5 class="w3-hide-medium w3-hide-small">SV: /'ana 'bjørklund/</h5>
+</div>
 
-		<p>I have worked with the <a href="https://paskenta-nsn.gov/" target="_blank">Paskenta Band of Nomlaki Indians</a> on Nomlaki language revitalization since 2020, 
-		and the <a href="https://www.reddingrancheria-nsn.gov/" target="_blank">Redding Rancheria</a> on Wintu language revitalization since 2022. These activities include 
-		co-teaching weekly classes and leveraging archival documentation with existing linguistic research for informed practice.</p>
-		</div> 
-	</div>
-	<footer><p id="contact_text"><span class="circle-sketch-highlight">Contact: </span>&#128231; <a href="mailto:aebjorklund@berkeley.edu">aebjorklund@berkeley.edu</a></p></footer>
-  </body>
-  
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text-lime">about</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p>I am a PhD student at UC Berkeley with an interest in the Wintuan languages, traditionally spoken in the northern Sacramento Valley of California.
+      The Wintuan languages (Wintu, Nomlaki, & Patwin) are among the least documented in North America, with Nomlaki having neither a grammar nor dictionary and less than an hour of spoken audio.
+      My primary research interests are in leveraging archival recordings for the phonetic and phonological analysis of these and similarly under-documented languages, as well as
+      exploring how deep learning can be used to supplement revitalization, particularly text-to-speech. I have worked as a linguistic consultant for the
+      <a href="https://paskenta-nsn.gov/" target="_blank"> Paskenta Band of Nomlaki Indians</a> since 2020 and the
+      <a href="https://wintutribe.com/" target="_blank"> Wintu Tribe of Northern California</a> since 2022. I am also currently a Data Science Fellow at the UC Berkeley
+      <a href="https://dlab.berkeley.edu/" target="_blank"> D-Lab</a>.
+    </p>
+
+    <p> My recently completed second qualifying paper (in preparation) focuses on developing a ToBI style system of transcription for Patwin (PaToBI). PaToBI is then used to identify common
+      intonational patterns across text and elicitation, which are compared with those suggested by computational methods such as Kaland (2021).
+    </p>
+
+    <p>My advisor is <a href="https://linguistics.berkeley.edu/~kjohnson/" target="_blank"> Keith Johnson</a>.
+    </p>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+    <h2 class="w3-text-lime">contact</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-lime w3-xxlarge w3-margin-right"></i> Berkeley, CA, USA</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-lime w3-xxlarge w3-margin-right"> </i> Email: aebjorklund@berkeley.edu</p>
+      <p><i class="fa-brands fa-linkedin fa-fw w3-text-lime w3-xxlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/aebjorklund/" target="_blank">
+        linkedin</a></p>
+    </div><br>
+  <!-- </div> -->
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
 </html>
